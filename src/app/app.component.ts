@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   private _base:string = 'https://api.adorable.io/avatars/500/';
   private _faceNumber:number;
-  image:string;
+  imageUrl:string;
 
   constructor(){
     setInterval(() => this.getRandomFace(),2000);
