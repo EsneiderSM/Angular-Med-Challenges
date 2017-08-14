@@ -1,0 +1,12 @@
+
+.face{
+    text-align:center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.face img{
+    max-width: 100%;
+}
+.face img:first-child{
+    border-radius: 50%;        
+}
