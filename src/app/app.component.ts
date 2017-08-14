@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Http } from "@angular/http";
 
 @Component({
   selector: 'app-root',
@@ -16,7 +17,7 @@ export class AppComponent {
 
   getRandomFace(){
     this._faceNumber = Math.random();
-    this.image = `${this._base}${this._faceNumber}@adorable.png`;
+    this.imageUrl = `${this._base}${this._faceNumber}@adorable.png`;
   }
 
 }
