@@ -1,0 +1,27 @@
+.ctn-animation{
+    max-width: 580px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.ctn-animation ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 30px;
+}
+
+.ctn-animation ul button{
+    border: 2px solid #ff5e00;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 20px;
+    position: relative;
+    z-index: 9999;
+    cursor: pointer;
+}
+.ctn-animation ul button:hover{
+    background-color: #ff5e00;
+}

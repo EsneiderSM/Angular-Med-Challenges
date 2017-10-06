@@ -2,20 +2,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
-import { TwoComponent } from './two/two.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing/app-routing.module';
-import { OneComponent } from './one/one.component';
+import { ChallengeOneComponent } from './challenge-one/challenge-one.component';
+import { ChallengeTwoComponent } from './challenge-two/challenge-two.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TwoComponent,
-    OneComponent
+    ChallengeOneComponent,
+    ChallengeTwoComponent
   ],
   imports: [
     BrowserModule,
     HttpModule,
+    BrowserAnimationsModule,
     AppRoutingModule
   ],
   providers: [],
